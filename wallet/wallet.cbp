@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wallet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/wallet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/wallet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Asset.h" />
+		<Unit filename="include/BankDeposit.h" />
+		<Unit filename="include/Contract.h" />
+		<Unit filename="include/Date.h" />
+		<Unit filename="include/FileWriter.h" />
+		<Unit filename="include/IndividualRetirementAccount.h" />
+		<Unit filename="include/Interface.h" />
+		<Unit filename="include/InvestmentFundShare.h" />
+		<Unit filename="include/RealEstate.h" />
+		<Unit filename="include/Simulation.h" />
+		<Unit filename="include/Utils.h" />
+		<Unit filename="include/Wallet.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Asset.cpp" />
+		<Unit filename="src/BankDeposit.cpp" />
+		<Unit filename="src/Contract.cpp" />
+		<Unit filename="src/Date.cpp" />
+		<Unit filename="src/FileWriter.cpp" />
+		<Unit filename="src/IndividualRetirementAccount.cpp" />
+		<Unit filename="src/Interface.cpp" />
+		<Unit filename="src/InvestmentFundShare.cpp" />
+		<Unit filename="src/RealEstate.cpp" />
+		<Unit filename="src/Simulation.cpp" />
+		<Unit filename="src/Utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1515841129 source:c:\dev\projects\po\wallet\main.cpp
+	<iostream>
+	<stdlib.h>
+	"IndividualRetirementAccount.h"
+	"BankDeposit.h"
+	"Contract.h"
+	"InvestmentFundShare.h"
+	"RealEstate.h"
+	"Wallet.h"
+	<stdio.h>
+	"Interface.h"
+	"Simulation.h"
+	"Utils.h"
+	<cstdlib>
+
+1515678016 source:c:\dev\projects\po\wallet\src\asset.cpp
+	"Asset.h"
+
+1515840333 c:\dev\projects\po\wallet\include\asset.h
+	<string>
+	<sstream>
+	<fstream>
+
+1515869665 source:c:\dev\projects\po\wallet\src\bankdeposit.cpp
+	"BankDeposit.h"
+
+1515863850 c:\dev\projects\po\wallet\include\bankdeposit.h
+	"Asset.h"
+	<string>
+	<iostream>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	"Utils.h"
+
+1515869730 source:c:\dev\projects\po\wallet\src\contract.cpp
+	"Contract.h"
+
+1515863813 c:\dev\projects\po\wallet\include\contract.h
+	"Date.h"
+	"Asset.h"
+	<iostream>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	"Utils.h"
+
+1515794489 c:\dev\projects\po\wallet\include\date.h
+
+1515794664 source:c:\dev\projects\po\wallet\src\date.cpp
+	"Date.h"
+
+1515869700 source:c:\dev\projects\po\wallet\src\individualretirementaccount.cpp
+	"IndividualRetirementAccount.h"
+
+1515863819 c:\dev\projects\po\wallet\include\individualretirementaccount.h
+	<string>
+	<iostream>
+	"Asset.h"
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	"Utils.h"
+
+1515869744 source:c:\dev\projects\po\wallet\src\investmentfundshare.cpp
+	"InvestmentFundShare.h"
+
+1515863839 c:\dev\projects\po\wallet\include\investmentfundshare.h
+	<string>
+	<iostream>
+	"Asset.h"
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	"Utils.h"
+
+1515869726 source:c:\dev\projects\po\wallet\src\realestate.cpp
+	"RealEstate.h"
+
+1515863846 c:\dev\projects\po\wallet\include\realestate.h
+	"Asset.h"
+	<string>
+	<iostream>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	"Utils.h"
+
+1515869475 c:\dev\projects\po\wallet\include\wallet.h
+	<iostream>
+	<vector>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<string>
+
+1515780174 source:c:\dev\projects\po\wallet\src\filewriter.cpp
+	"FileWriter.h"
+
+1515780208 c:\dev\projects\po\wallet\include\filewriter.h
+	"Wallet.h"
+	"Asset.h"
+	<iostream>
+	<stdlib.h>
+	"IndividualRetirementAccount.h"
+	"BankDeposit.h"
+	"Contract.h"
+	"InvestmentFundShare.h"
+	"RealEstate.h"
+	"Wallet.h"
+	<stdio.h>
+	"Interface.h"
+
+1515863833 c:\dev\projects\po\wallet\include\interface.h
+	"Wallet.h"
+	"Asset.h"
+	"FileWriter.h"
+	"Utils.h"
+	<regex>
+
+1515865606 source:c:\dev\projects\po\wallet\src\interface.cpp
+	"Interface.h"
+
+1515787212 c:\dev\projects\po\wallet\include\simulation.h
+	"Wallet.h"
+	"Asset.h"
+	<stdlib.h>
+	<ctime>
+	<stdio.h>
+	"Date.h"
+	"Utils.h"
+	<sstream>
+
+1515841294 source:c:\dev\projects\po\wallet\src\simulation.cpp
+	"Simulation.h"
+
+1515858379 c:\dev\projects\po\wallet\include\utils.h
+	<string>
+	<regex>
+	<iostream>
+
+1515868119 source:c:\dev\projects\po\wallet\src\utils.cpp
+	"Utils.h"
+
